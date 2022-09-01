@@ -2,7 +2,7 @@ namespace TestingChrome.Core
 {
     public class Base 
     {
-        protected IWebDriver driver;
+        protected static IWebDriver driver;
 
         public void SetUpDriver(){
             new DriverManager().SetUpDriver(new ChromeConfig());
@@ -11,19 +11,21 @@ namespace TestingChrome.Core
         }
 
         public void TearDownDriver(){
+            Thread.Sleep(2000);
             driver.Quit();
         }
 
-        public void Navigate(String url){
-            driver.Navigate().GoToUrl(url);
+        public void Navigate(String txturl){
+            driver.Navigate().GoToUrl(txturl);
         }
 
-        public IWebElement WaitAndFindElement(By locator){
+        public static IWebElement WaitAndFindElement(By locator){
             return driver.FindElement(locator);
         }
 
         public void SetUpText(IWebElement element, string text){
             element.SendKeys(text);
+            Thread.Sleep(3000);
             element.SendKeys(Keys.Enter);
         } 
 

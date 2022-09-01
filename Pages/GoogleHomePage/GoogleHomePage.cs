@@ -3,7 +3,7 @@ namespace TestingChrome.Pages.GoogleHomePage
     public partial class GoogleHomePage: GoogleHomePageAsserters
     {
         public void GoToGoogle(){
-            Navigate("https://www.google.com");
+            Navigate("https://www.google.com/");
         }
 
         public void PerformGeneralAsserts(){

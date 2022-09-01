@@ -8,7 +8,7 @@ namespace TestingChrome.Core
         }
         [TearDown]
         public void TearDown(){
-           // TearDownDriver();
+           TearDownDriver();
         }
     }
 }
