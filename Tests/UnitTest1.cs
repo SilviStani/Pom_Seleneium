@@ -3,20 +3,24 @@ namespace TestingChrome;
 [TestFixture]
 public class Tests: TestBase
 {
-    public static GoogleHomePage googleHomePage;
 
     [Test]
     public void GoogleSearchingTest()
     {
-        googleHomePage = new GoogleHomePage();
-
-        googleHomePage.GoToGoogle(); //Go to url
+        // Go to url
+        googleHomePage.GoToGoogle(); 
 
         // Do ALL my asserts
         googleHomePage.PerformGeneralAsserts();
 
-        //Searching:
+        // Searching "Selenium":
         googleHomePage.Search("Selenium");
+
+        //Hacemos los asserts de Selenium Page
+        googleSearchResult.PerformAllSearchAsserts(); // selenium . buscar con google
+        googleSearchResult.ClickFirstResult(); 
+        googleSearchResult.AssertFirstResultTitlePage(); // Selenium
+        googleSearchResult.Sleep();
     }
 
 }

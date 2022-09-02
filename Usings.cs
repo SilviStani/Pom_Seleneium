@@ -5,3 +5,4 @@ global using WebDriverManager;
 global using WebDriverManager.DriverConfigs.Impl;
 global using TestingChrome.Core;
 global using TestingChrome.Pages.GoogleHomePage;
+global using TestingChrome.Pages.GoogleSearchResult;
