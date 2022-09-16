@@ -15,6 +15,8 @@ namespace TestingChrome.Pages.HerokuHomePage
             Link2Enabled();
             Link1Href();
             Link2Href();
+            LogInClick();
+            Thread.Sleep(3000);
         }
     }
 }
