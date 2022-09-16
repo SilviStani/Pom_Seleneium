@@ -11,6 +11,10 @@ namespace TestingChrome.Pages.HerokuHomePage
             NotLoggedFstTxt();
             NotLoggedScndTxt();
             LoginButtonDisplayed();
+            Link1Enabled();
+            Link2Enabled();
+            Link1Href();
+            Link2Href();
         }
     }
 }
