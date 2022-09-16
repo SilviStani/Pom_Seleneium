@@ -6,3 +6,4 @@ global using WebDriverManager.DriverConfigs.Impl;
 global using TestingChrome.Core;
 global using TestingChrome.Pages.GoogleHomePage;
 global using TestingChrome.Pages.GoogleSearchResult;
+global using TestingChrome.Pages.HerokuHomePage;
