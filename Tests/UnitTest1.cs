@@ -28,6 +28,26 @@ public class Tests: TestBase
         herokuHomePage.PerformHerokuGeneralAsserts();
         // Click log in
         herokuHomePage.ClickLogIn();
+        // perform asserts for sig in page
+        herokuSigInPage.PerformSignInAsserts();
+        //Fill the fields with wrong info
+        herokuSigInPage.UserName("hjk");
+        herokuSigInPage.Password("kjk");
+        herokuSigInPage.Wait3000();
+        herokuSigInPage.clickSubmitBTN();
+        herokuSigInPage.clearEmailBoxField();
+        herokuSigInPage.Wait3000();
+        //Fill the Sign In fields: Email-Username
+        herokuSigInPage.UserName("silvina.stani@gmail.com");
+        //Fill the Sign In fields: Password
+        herokuSigInPage.clickEye();
+        herokuSigInPage.Password("1234Pqow");
+       //Wait a while to see action
+        herokuSigInPage.Wait3000();
+       //Submit button
+        herokuSigInPage.clickSubmitBTN();
+       //Now we are on another web direction: Login Page
+       
     }
 
 }

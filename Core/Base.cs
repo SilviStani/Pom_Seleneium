@@ -28,6 +28,14 @@ namespace TestingChrome.Core
             Thread.Sleep(3000);
             element.SendKeys(Keys.Enter);
         } 
-
+        public void ClickOn(IWebElement element){
+            element.Click();
+        }
+        public void Wait3000(){
+            Thread.Sleep(3000);
+        }
+        public void clearField(IWebElement element){
+            element.Clear();
+        }
     }
 }
