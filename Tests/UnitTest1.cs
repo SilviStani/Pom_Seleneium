@@ -26,6 +26,8 @@ public class Tests: TestBase
         herokuHomePage.GoToGoogle();
         // Do my Home Page Asserts
         herokuHomePage.PerformHerokuGeneralAsserts();
+        // Click log in
+        herokuHomePage.ClickLogIn();
     }
 
 }
