@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\silvina.staniszewski\\Desktop\\seleniumPom\\seleniumPom.csproj": {}
+    "C:\\Users\\silvina.staniszewski\\Desktop\\Selenium training\\seleniumPom\\seleniumPom.csproj": {}
   },
   "projects": {
-    "C:\\Users\\silvina.staniszewski\\Desktop\\seleniumPom\\seleniumPom.csproj": {
+    "C:\\Users\\silvina.staniszewski\\Desktop\\Selenium training\\seleniumPom\\seleniumPom.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\silvina.staniszewski\\Desktop\\seleniumPom\\seleniumPom.csproj",
+        "projectUniqueName": "C:\\Users\\silvina.staniszewski\\Desktop\\Selenium training\\seleniumPom\\seleniumPom.csproj",
         "projectName": "seleniumPom",
-        "projectPath": "C:\\Users\\silvina.staniszewski\\Desktop\\seleniumPom\\seleniumPom.csproj",
+        "projectPath": "C:\\Users\\silvina.staniszewski\\Desktop\\Selenium training\\seleniumPom\\seleniumPom.csproj",
         "packagesPath": "C:\\Users\\silvina.staniszewski\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\silvina.staniszewski\\Desktop\\seleniumPom\\obj\\",
+        "outputPath": "C:\\Users\\silvina.staniszewski\\Desktop\\Selenium training\\seleniumPom\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\silvina.staniszewski\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\silvina.staniszewski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -56,7 +62,7 @@
             },
             "NUnit3TestAdapter": {
               "target": "Package",
-              "version": "[4.2.1, )"
+              "version": "[4.3.0, )"
             },
             "Selenium.WebDriver": {
               "target": "Package",
@@ -77,7 +83,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -86,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

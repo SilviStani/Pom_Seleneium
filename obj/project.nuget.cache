@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aUIHyVq59QT5zJfaX5nuzMmgVOjuPPlNkIUnUSDojirZhM3zhQaeHtFakbs/1mjC1uzu4jGZ0NolLPO5JNab5g==",
+  "dgSpecHash": "0MDGNmP5pnAV0Eb8ydjIjsOmTCquTS8HUKTGxySCVH6WF2yWnNdcVl4RqzsQLGd+7k0M6WyspGsUWdOrW8VZeQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\silvina.staniszewski\\Desktop\\seleniumPom\\seleniumPom.csproj",
+  "projectFilePath": "C:\\Users\\silvina.staniszewski\\Desktop\\Selenium training\\seleniumPom\\seleniumPom.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\silvina.staniszewski\\.nuget\\packages\\anglesharp\\0.17.1\\anglesharp.0.17.1.nupkg.sha512",
     "C:\\Users\\silvina.staniszewski\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
@@ -17,7 +17,7 @@
     "C:\\Users\\silvina.staniszewski\\.nuget\\packages\\nuget.frameworks\\5.11.0\\nuget.frameworks.5.11.0.nupkg.sha512",
     "C:\\Users\\silvina.staniszewski\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
     "C:\\Users\\silvina.staniszewski\\.nuget\\packages\\nunit.analyzers\\3.3.0\\nunit.analyzers.3.3.0.nupkg.sha512",
-    "C:\\Users\\silvina.staniszewski\\.nuget\\packages\\nunit3testadapter\\4.2.1\\nunit3testadapter.4.2.1.nupkg.sha512",
+    "C:\\Users\\silvina.staniszewski\\.nuget\\packages\\nunit3testadapter\\4.3.0\\nunit3testadapter.4.3.0.nupkg.sha512",
     "C:\\Users\\silvina.staniszewski\\.nuget\\packages\\selenium.webdriver\\4.4.0\\selenium.webdriver.4.4.0.nupkg.sha512",
     "C:\\Users\\silvina.staniszewski\\.nuget\\packages\\sharpziplib\\1.3.3\\sharpziplib.1.3.3.nupkg.sha512",
     "C:\\Users\\silvina.staniszewski\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",

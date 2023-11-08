@@ -46,8 +46,13 @@ public class Tests: TestBase
         herokuSigInPage.Wait3000();
        //Submit button
         herokuSigInPage.clickSubmitBTN();
+        // We use some assertions for Links
+      
        //Now we are on another web direction: Login Page
-       
+      // herokuLogInPage.GeneralAssertions();
+      // herokuLoremIpsum.LoremIpsumClick();
+      // herokuSigInPage.Wait3000();
+      // herokuLoremIpsum.AssertLoremIpsumPage();
     }
 
 }
